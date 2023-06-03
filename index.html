@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>ToDoList</title>
+  </head>
+  <body>
+    <div class="back-todo"></div>
+    <div class="edit-page">
+      <div class="edit-page-container">
+        <input class="edit-text" type="text" data-id="" />
+        <small class="alarm-edit">you didnt update the title !</small>
+        <div class="edit-btns">
+          <button class="save-btn btn">save</button>
+          <button class="cansel-btn btn">cansel</button>
+        </div>
+      </div>
+    </div>
+    <header>
+      <h1 class="todo-header">todo list</h1>
+    </header>
+    <main>
+      <section class="container">
+        <div class="form-container">
+          <form class="form-todo">
+            <input type="text" class="todo-input" placeholder="Enter your title"/>
+            <button type="submit" class="todo-button">
+              <i class="fas fa-plus-circle"></i>
+            </button>
+          </form>
+          <div class="todo-select-container">
+            <select name="todo" class="todo-select">
+              <option value="all">All</option>
+              <option value="completed">Completed</option>
+              <option value="uncompleted">Uncompleted</option>
+            </select>
+          </div>
+        </div>
+        <div class="todo-container">
+          <ul class="todo-list-container">
+            <!-- <li class="todo">
+              <p class="todo-title">mahsa</p>
+              <div class="todo-info">
+                <p class="todo-createdAt">29.6.9</p>
+                <button class="todo-check"><i class="fas fa-check"></i></button>
+                <button class="todo-remove">
+                  <i class="fa fa-trash-alt"></i>
+                </button>
+               
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
