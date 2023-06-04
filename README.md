@@ -10,6 +10,6 @@
 <img src="p3.JPG" width="700"/>
 
 
-* Responsive design.  
+* Mobile design.  
 <img src="p2.JPG" />
 
