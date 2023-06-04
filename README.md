@@ -11,5 +11,5 @@
 
 
 * Responsive design.  
-<img src="p2.JPG" width="700"/>
+<img src="p2.JPG" />
 
