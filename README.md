@@ -1,6 +1,8 @@
 # to-do-list
-Online Poject: https://to-do-list-two-wine.vercel.app/
+
  This Project is written by Mahsa Tabesh
+
+ * Online Poject: https://to-do-list-two-wine.vercel.app/
  
  * You can add new item-todo by clicking on "+" button.  
 * You can edit, remove and change state of category in your each item-todo by clicking on related button.
