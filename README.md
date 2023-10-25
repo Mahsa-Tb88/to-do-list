@@ -1,5 +1,5 @@
 # to-do-list
-<a src="https://to-do-list-two-wine.vercel.app/">Online Poject</a>
+Online Poject: https://to-do-list-two-wine.vercel.app/
  This Project is written by Mahsa Tabesh
  
  * You can add new item-todo by clicking on "+" button.  
